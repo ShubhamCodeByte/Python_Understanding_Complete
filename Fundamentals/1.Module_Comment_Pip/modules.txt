@@ -1,0 +1,4 @@
+To use any module we can use the pio or the poetry
+  1. Pip : we can use the command pip install <module name>
+  2. poetry : command poetry add <module name> or poetry add <module name>==<version>
+
