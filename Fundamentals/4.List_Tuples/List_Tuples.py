@@ -73,6 +73,12 @@ print(count)
 findindex = t1.index("shubham singh")
 print(findindex)
 
+findLength = len(t1)
+print(findLength)
+
+
+
+
 
 
 
@@ -97,7 +103,7 @@ False
 [15, 26, 7, 2, 1, 8]
 1
 2
-
+3
 """
 
 
