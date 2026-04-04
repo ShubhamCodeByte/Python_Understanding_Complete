@@ -1,0 +1,17 @@
+[2026-04-04 00:00:01] systemd[1]: Reached target System Time Set.
+[2026-04-04 00:00:05] sshd[452]: Server listening on 0.0.0.0 port 22.
+[2026-04-04 00:01:20] auth: pam_unix(sshd:auth): check pass; user root.
+[2026-04-04 00:01:22] auth: pam_unix(sshd:session): session opened for user root.
+[2026-04-04 00:05:00] cron[99]: (root) CMD (run-parts /etc/cron.hourly)
+[2026-04-04 00:10:15] kernel: [120.45] eth0: Link is up at 1000Mbps, full duplex.
+[2026-04-04 00:15:30] systemd[1]: Starting Daily apt download activities...
+[2026-04-04 00:20:45] dbus-daemon[11]: [system] Successfully activated service 'org.freedesktop.nm'.
+[2026-04-04 00:25:00] systemd-logind[44]: New session 1 of user admin.
+[2026-04-04 00:30:12] kernel: [1800.12] EXT4-fs (sda1): mounted filesystem with ordered data mode.
+[2026-04-04 00:35:55] systemd[1]: Created slice User Slice of UID 1000.
+[2026-04-04 00:40:10] sshd[882]: Received disconnect from 192.168.1.50: 11: closed by user.
+[2026-04-04 00:45:00] cron[99]: (root) CMD (sh /usr/local/bin/backup.sh)
+[2026-04-04 00:50:22] auth: pam_unix(sshd:session): session closed for user root.
+[2026-04-04 00:55:11] systemd[1]: Reached target Multi-User System.
+[2026-04-04 01:00:00] cron[99]: (root) CMD (run-parts /etc/cron.hourly)
+... [Repeated for 500+ lines] ...
